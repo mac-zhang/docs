@@ -1,0 +1,153 @@
+[2016-04-01 05:15:30] INFO  WEBrick 1.3.1
+[2016-04-01 05:15:30] INFO  ruby 2.0.0 (2014-11-13) [x86_64-linux]
+[2016-04-01 05:15:30] INFO  WEBrick::HTTPServer#start: pid=14600 port=3000
+172.16.129.39 - - [01/Apr/2016 05:18:05] "GET /docs/visualization/promdash/ HTTP/1.1" 200 31151 0.0017
+bogon - - [01/Apr/2016:05:18:05 EDT] "GET /docs/visualization/promdash/ HTTP/1.1" 200 31151
+http://172.16.129.151:3000/ -> /docs/visualization/promdash/
+172.16.129.39 - - [01/Apr/2016 05:18:07] "GET /assets/bootstrap-3.3.1/css/bootstrap.min.css HTTP/1.1" 200 113498 0.0027
+172.16.129.39 - - [01/Apr/2016 05:18:07] "GET /assets/docs.css HTTP/1.1" 200 4152 0.0006
+bogon - - [01/Apr/2016:05:18:07 EDT] "GET /assets/docs.css HTTP/1.1" 200 4152
+http://172.16.129.151:3000/docs/visualization/promdash/ -> /assets/docs.css
+bogon - - [01/Apr/2016:05:18:07 EDT] "GET /assets/bootstrap-3.3.1/css/bootstrap.min.css HTTP/1.1" 200 113498
+http://172.16.129.151:3000/docs/visualization/promdash/ -> /assets/bootstrap-3.3.1/css/bootstrap.min.css
+172.16.129.39 - - [01/Apr/2016 05:18:07] "GET /assets/font-awesome-4.2.0/css/font-awesome.min.css HTTP/1.1" 200 21984 0.0007
+bogon - - [01/Apr/2016:05:18:07 EDT] "GET /assets/font-awesome-4.2.0/css/font-awesome.min.css HTTP/1.1" 200 21984
+http://172.16.129.151:3000/docs/visualization/promdash/ -> /assets/font-awesome-4.2.0/css/font-awesome.min.css
+172.16.129.39 - - [01/Apr/2016 05:18:07] "GET /assets/prometheus_logo_grey.svg HTTP/1.1" 200 1533 0.0005
+bogon - - [01/Apr/2016:05:18:07 EDT] "GET /assets/prometheus_logo_grey.svg HTTP/1.1" 200 1533
+http://172.16.129.151:3000/docs/visualization/promdash/ -> /assets/prometheus_logo_grey.svg
+172.16.129.39 - - [01/Apr/2016 05:18:07] "GET /assets/ie10-viewport-bug-workaround.js HTTP/1.1" 200 694 0.0004
+bogon - - [01/Apr/2016:05:18:07 EDT] "GET /assets/ie10-viewport-bug-workaround.js HTTP/1.1" 200 694
+http://172.16.129.151:3000/docs/visualization/promdash/ -> /assets/ie10-viewport-bug-workaround.js
+172.16.129.39 - - [01/Apr/2016 05:18:07] "GET /assets/bootstrap-3.3.1/js/bootstrap.min.js HTTP/1.1" 200 35601 0.0008
+bogon - - [01/Apr/2016:05:18:07 EDT] "GET /assets/bootstrap-3.3.1/js/bootstrap.min.js HTTP/1.1" 200 35601
+http://172.16.129.151:3000/docs/visualization/promdash/ -> /assets/bootstrap-3.3.1/js/bootstrap.min.js
+172.16.129.39 - - [01/Apr/2016 05:18:07] "GET /assets/promdash_event_processor.png HTTP/1.1" 200 223810 0.0246
+bogon - - [01/Apr/2016:05:18:07 EDT] "GET /assets/promdash_event_processor.png HTTP/1.1" 200 223810
+http://172.16.129.151:3000/docs/visualization/promdash/ -> /assets/promdash_event_processor.png
+172.16.129.39 - - [01/Apr/2016 05:18:07] "GET /assets/annotations_example.png HTTP/1.1" 200 26891 0.0020
+bogon - - [01/Apr/2016:05:18:07 EDT] "GET /assets/annotations_example.png HTTP/1.1" 200 26891
+http://172.16.129.151:3000/docs/visualization/promdash/ -> /assets/annotations_example.png
+172.16.129.39 - - [01/Apr/2016 05:18:07] "GET /assets/annotations_hover.png HTTP/1.1" 200 21976 0.0017
+bogon - - [01/Apr/2016:05:18:07 EDT] "GET /assets/annotations_hover.png HTTP/1.1" 200 21976
+http://172.16.129.151:3000/docs/visualization/promdash/ -> /assets/annotations_hover.png
+172.16.129.39 - - [01/Apr/2016 05:18:07] "GET /assets/font-awesome-4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452 0.0043
+bogon - - [01/Apr/2016:05:18:07 EDT] "GET /assets/font-awesome-4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65452
+http://172.16.129.151:3000/assets/font-awesome-4.2.0/css/font-awesome.min.css -> /assets/font-awesome-4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0
+172.16.129.39 - - [01/Apr/2016 05:18:09] "GET /assets/favicons/favicon-16x16.png HTTP/1.1" 200 1199 0.0005
+bogon - - [01/Apr/2016:05:18:09 EDT] "GET /assets/favicons/favicon-16x16.png HTTP/1.1" 200 1199
+http://172.16.129.151:3000/docs/visualization/promdash/ -> /assets/favicons/favicon-16x16.png
+172.16.129.39 - - [01/Apr/2016 05:18:10] "GET /docs/introduction/install/ HTTP/1.1" 200 14364 0.0006
+bogon - - [01/Apr/2016:05:18:10 EDT] "GET /docs/introduction/install/ HTTP/1.1" 200 14364
+http://172.16.129.151:3000/docs/visualization/promdash/ -> /docs/introduction/install/
+172.16.129.39 - - [01/Apr/2016 05:18:12] "GET /docs/introduction/getting_started/ HTTP/1.1" 304 - 0.0004
+bogon - - [01/Apr/2016:05:18:12 EDT] "GET /docs/introduction/getting_started/ HTTP/1.1" 304 0
+http://172.16.129.151:3000/docs/introduction/install/ -> /docs/introduction/getting_started/
+172.16.129.39 - - [01/Apr/2016 05:18:15] "GET /docs/introduction/comparison/ HTTP/1.1" 200 19662 0.0008
+bogon - - [01/Apr/2016:05:18:15 EDT] "GET /docs/introduction/comparison/ HTTP/1.1" 200 19662
+http://172.16.129.151:3000/docs/introduction/getting_started/ -> /docs/introduction/comparison/
+172.16.129.39 - - [01/Apr/2016 05:18:17] "GET /docs/introduction/faq/ HTTP/1.1" 200 30594 0.0008
+bogon - - [01/Apr/2016:05:18:17 EDT] "GET /docs/introduction/faq/ HTTP/1.1" 200 30594
+http://172.16.129.151:3000/docs/introduction/comparison/ -> /docs/introduction/faq/
+172.16.129.39 - - [01/Apr/2016 05:19:05] "GET / HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:05 EDT] "GET / HTTP/1.1" 304 0
+http://172.16.129.151:3000/docs/introduction/faq/ -> /
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/bootstrap-3.3.1/css/bootstrap.min.css HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/bootstrap-3.3.1/css/bootstrap.min.css HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/bootstrap-3.3.1/css/bootstrap.min.css
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/docs.css HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/docs.css HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/docs.css
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/font-awesome-4.2.0/css/font-awesome.min.css HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/font-awesome-4.2.0/css/font-awesome.min.css HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/font-awesome-4.2.0/css/font-awesome.min.css
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/bootstrap-3.3.1/js/bootstrap.min.js HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/bootstrap-3.3.1/js/bootstrap.min.js HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/bootstrap-3.3.1/js/bootstrap.min.js
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/ie10-viewport-bug-workaround.js HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/ie10-viewport-bug-workaround.js HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/ie10-viewport-bug-workaround.js
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/prometheus_logo_grey.svg HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/prometheus_logo_grey.svg HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/prometheus_logo_grey.svg
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/prometheus_logo.svg HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/prometheus_logo.svg HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/prometheus_logo.svg
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/company-logos/Argus.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/company-logos/Argus.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/Argus.png
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/company-logos/Boxever.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/company-logos/Boxever.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/Boxever.png
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/company-logos/cesanta.png HTTP/1.1" 304 - 0.0002
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/company-logos/cesanta.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/cesanta.png
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/company-logos/CoreOS.png HTTP/1.1" 304 - 0.0002
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/company-logos/CoreOS.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/CoreOS.png
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/company-logos/crononauta.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/company-logos/crononauta.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/crononauta.png
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/company-logos/digitalocean.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/company-logos/digitalocean.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/digitalocean.png
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/company-logos/Docker.png HTTP/1.1" 304 - 0.0004
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/company-logos/Docker.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/Docker.png
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/company-logos/Ericsson.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/company-logos/Ericsson.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/Ericsson.png
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/company-logos/Eurotech.png HTTP/1.1" 304 - 0.0002
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/company-logos/Eurotech.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/Eurotech.png
+172.16.129.39 - - [01/Apr/2016 05:19:06] "GET /assets/company-logos/giantswarm.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:06 EDT] "GET /assets/company-logos/giantswarm.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/giantswarm.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/Improbable.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/Improbable.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/Improbable.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/Jodel.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/Jodel.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/Jodel.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/MavenSecurities.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/MavenSecurities.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/MavenSecurities.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/Outbrain.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/Outbrain.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/Outbrain.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/Percona.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/Percona.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/Percona.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/quobyte.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/quobyte.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/quobyte.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/RobustPerception.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/RobustPerception.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/RobustPerception.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/ShowMax.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/ShowMax.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/ShowMax.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/shuttlecloud.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/shuttlecloud.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/shuttlecloud.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/soundcloud.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/soundcloud.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/soundcloud.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/WeLearn.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/WeLearn.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/WeLearn.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/unosoft.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/unosoft.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/unosoft.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/variomedia.png HTTP/1.1" 304 - 0.0002
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/variomedia.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/variomedia.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/company-logos/weave.png HTTP/1.1" 304 - 0.0004
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/company-logos/weave.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/company-logos/weave.png
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/font-awesome-4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 - 0.0004
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/font-awesome-4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 0
+http://172.16.129.151:3000/ -> /assets/font-awesome-4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0
+172.16.129.39 - - [01/Apr/2016 05:19:07] "GET /assets/jumbotron-background.png HTTP/1.1" 304 - 0.0003
+bogon - - [01/Apr/2016:05:19:07 EDT] "GET /assets/jumbotron-background.png HTTP/1.1" 304 0
+http://172.16.129.151:3000/assets/docs.css -> /assets/jumbotron-background.png

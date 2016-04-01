@@ -1,31 +1,31 @@
 # Prometheus Documentation
 
-This repository contains both the content and the static-site generator code for the
-Prometheus documentation site.
+这个库包含prometheus站点的内容和静态站点生成器代码.
 
 ## Prerequisites
 
 You need to have a working Ruby environment set up and then install the
 necessary gems:
+你需要有一个ruby的工作环境，并且安装网站运行必须的gems包。
 
-```bash
+```首先进入代码目录（命令行）
 cd docs
 bundle
 ```
 
-## Building
+## 编译
 
-To generate the static site, run:
+生成静态站资源, 执行:
 
 ```bash
 bundle exec nanoc
 ```
 
-The resulting static site will be stored in the `output` directory.
+生成的静态文件资源会被存储在 `output` 这个目录下.
 
 ## Development Server
 
-To run a local server that displays the generated site, run:
+在本地运行生成的网站，执行:
 
 ```bash
 # Rebuild the site whenever relevant files change:
@@ -34,8 +34,7 @@ bundle exec guard
 bundle exec nanoc view
 ```
 
-You should now be able to view the generated site at
-[http://localhost:3000/](http://localhost:3000).
+现在，你可以通过[http://localhost:3000/](http://localhost:3000)访问你生成的网站了.
 
 ## License
 
