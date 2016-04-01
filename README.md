@@ -1,11 +1,9 @@
-# Prometheus Documentation
+# Prometheus 中文文档
 
 这个库包含prometheus站点的内容和静态站点生成器代码.
 
-## Prerequisites
+## 环境要求
 
-You need to have a working Ruby environment set up and then install the
-necessary gems:
 你需要有一个ruby的工作环境，并且安装网站运行必须的gems包。
 
 ```首先进入代码目录（命令行）
@@ -23,7 +21,7 @@ bundle exec nanoc
 
 生成的静态文件资源会被存储在 `output` 这个目录下.
 
-## Development Server
+## 开发环境
 
 在本地运行生成的网站，执行:
 
